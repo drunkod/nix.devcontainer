@@ -38,9 +38,12 @@ nix flake init
 ```
 Or you can use existing flakes from GitHub or other sources.
 
-
-
-
+### 4. Using Shell
+For start nix develop shell from file flake.nix
+```bash
+export NIXPKGS_ALLOW_UNFREE=1
+nix develop --impure
+```
 # nix.university
 1. <a href="https://codespaces.new/preston-johnson/nix.university" target="_blank">Click here to start a Codespace on nix.university/main</a>
 2. Open a Terminal ( Ctrl + Backtick ) and pick a path below.
